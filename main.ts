@@ -2,7 +2,6 @@
 
 import inquirer from "inquirer";
 
-
 let myBalance = 100000;
 let myPin = 1234;
 
@@ -37,4 +36,3 @@ if (pinanswer.pin === myPin){
     }
 } else{console.log("You Entered invalid Pincode");
 }
-//
